@@ -232,6 +232,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 #about img {
 	float: right;
 }
+#about .img-with-text {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 370px;
+	padding-right: 0px;
+}
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
@@ -414,6 +421,12 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
+/* Resume Section */
+#resume {
+	padding: 100px 0;
+	background: #f6f6f6;
+}
+
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
@@ -646,4 +659,73 @@ header .intro-text {
 	float: left;
 	margin-bottom: 20px;
 }
+
+}
+
+/*----------------------------------------------------
+	6. Work Experience Style
+------------------------------------------------------*/
+
+.myexperties {
+	background:#fff;
+}
+.myexperties .container{
+	padding-top:67px ;
+	padding-bottom:0 ;
+	margin-bottom:-20px;
+}
+.expertiesico {
+	padding:0px 63px 70px 0;
+	text-align:right;
+	font-family:'Crimson Text',serif;
+	font-size:21px;
+	line-height:24px;
+	color:#5b4c5c;
+	font-style:italic;
+}
+.expertiesdesc {
+	border-left:2px solid #ada5ad;
+	padding:0 0 0 69px;
+	margin-bottom:100px;
+}
+.expertiesdesc p {
+	padding-bottom:0;
+}
+.expertiesdesc h4 {
+	font-size:14px;
+	font-weight:300;
+	color:#UIzards;
+	line-height:normal;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+.expertiesdesc h5 {
+	font-family: 'Crimson Text', serif;
+	color:#5b4c5c;
+	font-size:18px;
+	font-style:italic;
+	text-transform: unset;
+	font-weight:400;
+}
+
+/*----------------------------------------------------
+	7. Education & Diplomas Style
+------------------------------------------------------*/
+
+.educationdiploma {
+	background:#f8f8f8;
+}
+.educationdiploma .container{
+	padding-top:65px ;
+	padding-bottom:0 ;
+	margin-bottom:-20px;
+}
+
+/*----------------------------------------------------
+	Live Counter
+------------------------------------------------------*/
+.counter {
+	text-align: center;
+	background: #222;
+	padding: 0px 0 25px 0;
 }

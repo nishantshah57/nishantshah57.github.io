@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nishant Shah - WPI Graduate Student & Roboticist</title>
+<title>Nishant Shah - WPI Graduate Student &amp; Roboticist</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -44,7 +44,7 @@
         <div class="row">
           <div class="intro-text">
             <h1>Nishant Shah</h1>
-            <p>Graduate Student & Roboticist</p>
+            <p> Roboticist &amp; Software Engineer </p>
             <p>Mangekyo Sharingan Holder </p>
             <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
         </div>
@@ -69,7 +69,9 @@
           <li> <a class="page-scroll" href="#about">About</a> </li>
           <li> <a class="page-scroll" href="#skills">Skills</a> </li>
           <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+          <li> <a class="page-scroll" href="#experience">Work Experience</a> </li>
           <li> <a class="page-scroll" href="#education">Education</a> </li>
+          <li> <a href="Resume_Shah_Nishant.pdf">Resume</a> </li>
           <!-- <li> <a class="page-scroll" href="#testimonials">Testimonials</a> </li> -->
           <li> <a class="page-scroll" href="#contact">Contact</a> </li>
         </ul>
@@ -85,11 +87,17 @@
       <hr>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/about-2.png" class="img-responsive" alt="Not Loaded"> </div>
+      <div class="col-xs-12 col-md-6"> <img src="img/about-2.png" class="img-responsive" alt="Not Loaded">
+        <div class="img-with-text">
+          <p> <i>Hello, I am Nishant Shah! <br> (Sage of Six Paths) </i></p>
+        </div>
+      </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
-          <p>I am a first year Robotics Graduate Student at Worcester Polytechnic Institute seeking a summer internship in the field of Robotics to apply my knowledge and skills. I have completed my Bachelors in Mechatronics Engineering from Gujarat Technological University, India. </p>
-          <p>I was a part of CIBR lab at WPI in my first semester during which I worked in the field of Human Robot interaction building a haptic device for stroke patients. I was a Graduate Tutor for the subject of ECE 2201 Microelectronic Circuits at WPI and I have worked as a Lecturer at BBIT college in India for about six months.</p>
+          <p>I was a Robotics Software Engineer at <a href="https://humatics.com/">Humatics</a>, Waltham, MA. I was an Robotics Software Intern at Humatics in Summer 2019 and an Algorithms Intern at <a href="https://www.usa.philips.com/healthcare/solutions/patient-monitoring"> Philips </a> in Summer 2018.<br> <br>
+          I have completed my MS in Robotics Engineering from <a href="https://www.wpi.edu/">Worcester Polytechnic Institute </a>, MA, USA in 2019 and BE in Mechatronics Engineering from <a href="http://www.gcet.ac.in/">G H Patel College of Engineering and Technology </a>, Gujarat, India in 2016. <br><br>
+          My work at Humatics revolved around developing new algorithms, implementing API's in C++, integrating third party libraries and packages for robot localization, testing and analyzing proprietary sensor data like Ultrawideband, IMU and odometry writing Python scripts. I was also responsible for maintaining in-house navigation module to test and analyze the localization module performance and maintaining CI/CD pipelines using Docker. <br><br>
+          I have an interest in the field of software development, state estimation, motion planning, perception, backend engineering, SLAM, reinforcement learning, navigation, manipulators and mobile robotics.</p>
           <a href="#portfolio" class="btn btn-primary btn-lg page-scroll">My Portfolio</a> </div>
       </div>
     </div>
@@ -211,7 +219,7 @@
 	     <a href="img/projects/design-low-cost.pdf" />
               <div class="hover-text">
                 <h4>3-DOF Manipulator as Haptic Device for Bilateral Stroke Rehabilitation</h4>
-                <small>Synergy of Human and Robots</small> </div>
+                <small>Human-Robot Interaction</small> </div>
               <img src="img/portfolio/synergy.jpeg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
@@ -259,36 +267,88 @@
     </div>
   </div>
 </div>
+  <!--Work Experience start -->
+  <div id="experience" class="myexperties">
+    <div class="container">
+        <div class="section-title text-center center">
+        <h2>Work Experience</h2>
+        <hr>
+        <h3>My previous associations</h3>
+      </div>
+        <div class="row media">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+              <div class="expertiesico">
+                  <img src="img/logos/humatics.png" alt="Humatics" width="220" height="75"><br><br>
+                  <p style="font-size: 100%">Sept 2019 - May 2020 </p>
+                </div>
+            </div>
+          <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+              <h4>Humatics</h4>
+                <h5>Robotics Software Engineer</h5>
+                <p>Worked on addition/modification of data APIs over UDP for IMU and UWB range sensor ROS driver and firmware. Analyzed multiple IMUs using statistical methods and algorithms to drive choice of IMU for the product. Performed localization performance evaluation for new in-house localization hardware and automated the navigation module. Worked on design and implementation of algorithm for obtaining good UWB range sensor data. </p>
+            </div>
+        </div>
+        <div class="row media">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+              <div class="expertiesico">
+                <img src="img/logos/humatics.png" alt="Humatics" width="220" height="75"><br><br>
+                  <p style="font-size: 100%"> June 2019 - Aug 2019 </p>
+                </div>
+            </div>
+          <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+              <h4>Humatics</h4>
+                <h5>Robotics Software Intern</h5>
+                <p>Designed and developed a tool for field deployment engineers for evaluation of Odometry, IMU and Range sensor data used for Localization using ROS framework. Improved understanding of Gazebo simulation (URDF, sensor plugins, controller plugins), sensor fusion and different type of robot models (Differential, Ackermann). </p>
+            </div>
+        </div>
+        <div class="row media">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+              <div class="expertiesico">
+                <img src="img/logos/philips.jpg" alt="Philips" width="120" height="125"><br><br>
+                  <p style="font-size: 100%"> July 2018 - Dec 2018 </p>
+                </div>
+            </div>
+          <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+              <h4>Philips</h4>
+                <h5>Algorithms Intern</h5>
+                <p> Worked on wearable biosensor, handled sensor data to monitor patient&apos;s activities, heart rate and respiration rate. Used MATLAB and C++ to deal with data collection, processing and sensor calibration using the tool developed by team. </p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--Work Experience end -->
 
 <!--Education & diploma start -->
 <div id="education" class="text-center">
   <div class="container">
-    <div class="section-title center">
+    <div class="section-title text-center center">
       <h2>Education</h2>
       <hr>
-      <!-- <h3>I can say i’m quite good at</h3>         -->
+      <!-- <h3>I can say i&apos:m quite good at</h3>         -->
     </div>
 
     <div class="row media">
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
     <div class="expertiesico">
-    Aug 2017 - May 2019 <br>
-    (GPA: 4.00/4.00)
+    <img src="img/logos/wpi.png" alt="WPI" width="150" height="100"><br>
+    <p style="font-size: 75%">Aug 2017 - Sept 2019 <br>
+    (GPA: 3.85 / 4.00)</p>
     </div>
     </div>
     <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
     <div class="text-left">
     <h4>Master of Science - Robotics Engineering</h4>
     <h5>Worcester Polytechnic Institute</h5>
-    <p>Relevant Coursework: Robot Dynamics, Robot Control, Artificial Intelligence, Swarm Intelligence, Synergy of Human and Robots.</p>
+    <p>Relevant Coursework: Robot Dynamics, Robot Control, Artificial Intelligence, Swarm Intelligence, Human-Robot Interaction, Motion Planning.</p>
     </div>
     </div>
     </div>
     <div class="row media">
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
     <div class="expertiesico">
-    July 2012 - June 2016 <br>
-    (CGPA: 7.62/10.00)
+    <img src="img/logos/gtu.jpg" alt="GTU" width="125" height="125"><br>
+    <p style="font-size: 75%">July 2012 - June 2016 <br>
+    (CGPA: 7.62 / 10.00)</p>
     </div>
     </div>
     <div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
@@ -303,9 +363,7 @@
 </div>
 <br>
 <br>
-  <!-- </section> -->
-  <!--Education & diploma end
-
+<!--Education & diploma end -->
 
 <!-- Achievements Section -->
 <!-- <div id="achievements" class="text-center">
@@ -383,7 +441,6 @@
   </div>
 </div> -->
 
-
 <!-- Contact Section -->
 <div id="contact" class="text-center">
   <div class="overlay">
@@ -429,13 +486,22 @@
     </div>
   </div>
 </div>
+
 <div id="footer">
   <div class="container text-center">
     <div class="fnav">
-      <p>No Copyrights, use whatever and however you want. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+      <p>Copyrights &copy; 2020 Nishant Shah. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a> | Last Updated 06/05/2020</p>
     </div>
   </div>
 </div>
+
+<!-- hitwebcounter Code START -->
+<div class="counter">
+  <a href="https://www.hitwebcounter.com" target="_blank">
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7437357&style=0005&nbdigits=5&type=page&initCount=0" title="Web Counter" Alt="counter free" border="0" >
+  </a>
+</div>
+
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
