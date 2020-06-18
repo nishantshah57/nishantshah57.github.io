@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Upload to AWS') {
+    stage('Build') {
       steps {
         sh 'echo "Hello World"'
         sh '''
@@ -10,5 +10,17 @@ pipeline {
         '''
       }
     }
+    stage(‘Lint HTML’) {
+            steps {
+                sh ‘tidy -q -e *.html’
+            }
+        }
+        stage('Upload to AWS') {
+             steps {
+                 withAWS(region:'us-east-2',credentials:'AKIAZ6BVC6VJOCWCQZPC') {
+                 sh 'echo "Uploading content with AWS creds"'
+                     s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file:'website/index.html', bucket:'nishant-portfolio-website')
+                 }
+             }
   }
 }
