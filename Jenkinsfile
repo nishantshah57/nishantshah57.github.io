@@ -17,7 +17,7 @@ pipeline {
         }***/
         stage('Upload to AWS') {
              steps {
-                 withAWS(region:'us-east-2',credentials:'aws-static-website') {
+                 withAWS(region:'us-east-1',credentials:'aws-static-website') {
                  sh 'echo "Uploading content with AWS creds"'
                      s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file:'website/index.html', bucket:'nishant-portfolio-website')
                  }
