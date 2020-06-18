@@ -22,5 +22,6 @@ pipeline {
                      s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file:'website/index.html', bucket:'nishant-portfolio-website')
                  }
              }
+        }
   }
 }
